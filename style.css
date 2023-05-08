@@ -1,0 +1,100 @@
+
+body{
+background-color: rgb(0, 0, 0);
+}
+
+main{
+    padding: 7px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+:root {
+
+    /*! FONT-FAMILY*/
+
+    --fontTitle1: 'Bruno Ace SC', serif;
+    --fontTitle2: 'Inconsolata', monospace;
+    --fontPara: sans-serif;
+
+    /*! FONT-SIZE*/
+
+    --fontSize1:40px;
+    --fontSize2:xx-large;
+    --fontSizeP:large;
+
+    /*! BACKGROUND */
+
+    --bckr-color: gold;
+
+    /*! BORDER */
+
+    --border-title: rgb(248, 205, 95);
+
+    /*! COLOR TITLE */
+
+    --Title1-color: goldenrod;
+    --Title2-color: rgb(165, 0, 0);
+
+    /*! COLOR PARAGRAPHE */
+
+    --Paragraphe-color: rgb(0, 0, 0);
+
+    /*! TEXT-ALIGN */
+
+    --textAlignH1: center;
+    --textAlignH2: center;
+    --textAlignP: center;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgb(178, 178, 178);
+    font-family: var(--fontTitle1);
+    color: var(--Title1-color);
+    border: 4px inset var(--border-title);
+    text-align: var(--textAlignH1);
+    padding: 10px;
+    width: 70%;
+    margin: 30px auto;
+    font-size: var(--fontSize1);
+}
+
+h2{
+    color: var(--Title2-color);
+    font-family: var(--fontTitle2);
+    font-size: var(--fontSize2);
+    text-decoration: underline;
+    text-align: var(--textAlignH2);
+}
+
+p{
+    line-height: 1.4;
+    font-size: var(--fontSizeP);
+    color: var(--Paragraphe-color);
+    font-family: var(--fontPara);
+    text-align: var(--textAlignP);
+    margin: 10px auto;
+    width: 95%;
+}
+
+#play-rule{
+    background-color: var(--bckr-color);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.play{
+    margin: 20px auto;
+}
+
+#play-area{
+    display: block;
+    background-color: rgb(183, 183, 183);
+    width: 650px;
+    height: 500px;
+    border-radius: 4px;
+    border: 2px solid rgb(115, 115, 115);
+    margin: 0px auto;
+}
